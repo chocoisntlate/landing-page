@@ -94,7 +94,7 @@ header {
     flex-direction: column;
 }
 
-#sign-up-button {
+.sign-up-button {
     background-color: #3882F6;
     padding: 5px;
     margin: 0px;
@@ -167,4 +167,50 @@ header {
     padding-left: 150px;
     font-weight: bold;
     font-size: 15px;
+}
+
+#sign-up-section {
+    padding: 100px;
+    align-self: center;
+
+}
+
+#sign-up-box {
+    background-color: #3882F6;
+    width: 700px;
+    border-radius: 5px;
+    padding: 50px;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+#button2 {
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+
+    align-self: center;
+}
+
+#header1 {
+    color: white;
+    font-weight: bold;
+    font-size: large;
+}
+
+#header1-body {
+    color: white;
+    font-size: small;
+}
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    flex: 1;
+
+    color: white;
+    justify-content: center;
+    padding: 20px;
+    font-weight: lighter;
 }
